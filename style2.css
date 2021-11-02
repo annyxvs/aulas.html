@@ -1,0 +1,73 @@
+header{
+	background: black;
+	padding: 20px 10px;
+}
+
+#logo{
+	width: 150px;"
+	height: 55px;
+}
+
+nav ul{
+	color: white;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: yellow;
+	text-decoration: underline;
+
+}
+
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav{
+	position: absolute;
+	top:  75px;
+	right: 0;
+}
+
+.caixa{
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.tipos{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+
+.tipos li{
+	display: inline-block;
+	text-align: center;
+	width: 95%;
+	vertical-align: top;
+	margin: 25px 0;
+	border: black 2px solid ;
+	border-radius: 10px;
+
+}
+
+.tipos li:hover {
+	border-color: darkorange;
+}
+
+.tipos h2{
+	font-size: 50px;
+	font-weight: bold;
+
+}
